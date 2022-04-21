@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 73.794647 73.01059"
+   version="1.1"
+   id="svg15"
+   width="73.794647"
+   height="73.01059"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title2">about-icons</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <path
+     d="M 36.499617,2.5092408 C 18.982788,2.515714 4.1814488,15.838653 2.5199621,33.276508 c -0.026413,11.39956 0.054774,25.068539 -0.00719,37.224838 h 33.986842 c 12.334278,0.287135 23.856512,-6.128943 30.108032,-16.765454 6.25152,-10.636511 6.25152,-23.824686 0,-34.461197 C 60.356129,8.6381841 48.833895,2.2221058 36.499617,2.5092408 Z"
+     id="Shape"
+     fill="#f11823"
+     style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#fcfcfc;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="m 38.249617,61.953978 c -2.724926,0.534372 -5.527706,0.534372 -8.252632,0 -0.664081,-0.136906 -1.18029,-0.660385 -1.307894,-1.326316 -0.552768,-2.723109 -0.552768,-5.529523 0,-8.252632 0.12552,-0.670656 0.640982,-1.200639 1.307894,-1.344736 2.724926,-0.534373 5.527706,-0.534373 8.252632,0 0.676309,0.139961 1.204776,0.668427 1.344737,1.344736 0.552768,2.723109 0.552768,5.529523 0,8.252632 -0.142043,0.67159 -0.671252,1.19355 -1.344737,1.326316 z"
+     id="path9"
+     fill="#ffffff"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1" />
+  <path
+     d="M 29.278564,45.117136 27.252249,14.925031 c -0.0046,-1.097827 0.766447,-2.046232 1.842105,-2.26579 3.391518,-0.626141 6.869008,-0.626141 10.260526,0 1.071732,0.226012 1.839599,1.170488 1.842105,2.26579 l -2.026316,30.192105 c 5.9e-5,0.867791 -0.698056,1.57412 -1.565789,1.58421 -2.249293,0.386669 -4.548076,0.386669 -6.797368,0 -0.853281,-0.02978 -1.529467,-0.73041 -1.528948,-1.58421 z"
+     id="path11"
+     fill="#ffffff"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1" />
+  <metadata
+     id="metadata834">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>about-icons</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype-variations'),
+         url('./fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype-variations');
+    font-weight: 1 1000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'OpenSans', sans-serif;
+    color: #ffffffac;
+
+    background-image: url('./background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 23px;
+}
+
+/* Searchbar */
+
+.searchbar {
+    background-color: #2B2A33;
+    border-radius: 2137px;
+    width: 480px;
+    margin: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar input {
+    background-color: #00000000;
+
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 10px 15px;
+
+    border: none;
+    outline: none;
+
+    color: white;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 350;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+}
+
+#searchBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    border-radius: 0 2137px 2137px 0;
+    transition-duration: 0.5s;
+}
+
+#searchBtn:hover {
+    background-color: #4646ff;
+    cursor: pointer;
+}
+
+/* Quick Links */
+
+.quickLinks {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1.6em;
+}
+
+.item {
+    width: 100px;
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.item p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.item div {
+    background-color: #2B2A33;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item div img {
+    width: 100%;
+    opacity: 67.4509804%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    padding: 15px;
+}
+
+footer * {
+    margin: 0;
+    font-weight: 300;
+}
+
+a {
+    color: #4646ff;
+    text-decoration: none;
+}
