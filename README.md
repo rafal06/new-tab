@@ -4,7 +4,8 @@ Simple, yet beautiful start page for your browser.
 ![screenshot](https://cdn.discordapp.com/attachments/791628533339521031/966783717542592552/unknown.png)
 
 ## To do
-- [ ] Slight color change when hovering over clickable elements
+- [x] Slight color change when hovering over clickable elements
+- [ ] Click animation on quick links and searchbar
 
 Nice to have
 - [ ] Personalized greeting (using LocalStorage API)
