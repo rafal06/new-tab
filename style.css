@@ -23,6 +23,7 @@
 body {
     margin: 0;
     font-family: 'OpenSans', sans-serif;
+    font-size: initial;
     color: var(--light-txt);
 
     background-image: url('./background.jpg');
