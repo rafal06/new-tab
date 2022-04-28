@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Startpage06",
+    "short_name": "Startpage06",
+    "version": "1.0",
+    "description": "Simple, yet beautiful startpage for your browser",
+    "author": "rafal06",
+  
+    "icons": {
+      "64": "./favicon.svg"
+    },
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions": ["storage"]
+  }
