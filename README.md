@@ -9,7 +9,9 @@ Simple, yet beautiful start page for your browser.
 
 Nice to have
 - [ ] Personalized greeting (using LocalStorage API)
-- [ ] Make it into a browser extension
+- [x] Make it into a browser extension
+- [ ] Publish it to [AMO](https://extensionworkshop.com/documentation/publish/submitting-an-add-on/)
+- [ ] and [Chrome Web Store](https://developer.chrome.com/docs/webstore/publish/)
 
 Maybe sometime in the future
 - [ ] Ability to change shortcuts below the search bar
