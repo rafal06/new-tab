@@ -5,7 +5,7 @@ Simple, yet beautiful start page for your browser.
 
 ## To do
 - [x] Slight color change when hovering over clickable elements
-- [ ] Click animation on quick links and searchbar
+- [x] Click animation on quick links
 
 Nice to have
 - [ ] Personalized greeting (using LocalStorage API)
