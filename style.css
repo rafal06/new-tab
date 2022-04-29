@@ -112,6 +112,11 @@ h1 {
     align-items: center;
 
     cursor: pointer;
+    transition: transform 0.1s ease-out;
+}
+
+.item:active  {
+    transform: scale(0.9);
 }
 
 .item p {
@@ -121,7 +126,7 @@ h1 {
 
 .item div {
     background-color: var(--dark-bg);
-    transition-duration: 0.35s;
+    transition: background-color 0.35s;
     width: 80px;
     height: 80px;
     border-radius: 20px;
