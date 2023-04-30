@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Alt New Tab",
+	"short_name": "Alt New Tab",
+	"version": "2.0",
+	"description": "Simple, yet beautiful startpage for your browser",
+	"author": "rafal06",
+
+	"icons": {
+		"64": "./favicon.svg"
+	},
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"permissions": ["storage", "topSites"],
+	"content_security_policy": "*script-src * 'unsafe-inline' 'unsafe-eval';*"
+}
