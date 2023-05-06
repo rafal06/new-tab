@@ -1,5 +1,6 @@
 <script lang="ts">
-  import type { Link } from './lib/types';
+	import { onMount } from 'svelte';
+	import { browser, type Link } from './lib/types';
 	import LinkTile from './lib/LinkTile.svelte';
 	import SearchBar from './lib/SearchBar.svelte';
 
@@ -7,24 +8,30 @@
 		{
 			title: 'YouTube',
 			url: 'https://www.youtube.com/feed/subscriptions',
-			icon: './icons/youtube.svg'
+			favicon: './icons/youtube.svg'
 		},
 		{
 			title: 'GitHub',
 			url: 'https://github.com',
-			icon: './icons/github.svg'
+			favicon: './icons/github.svg'
 		},
 		{
 			title: 'MDN Docs',
 			url: 'https://developer.mozilla.org/en-US/',
-			icon: './icons/mdn.svg'
+			favicon: './icons/mdn.svg'
 		},
 		{
 			title: 'Downdetector',
 			url: 'https://downdetector.pl',
-			icon: './icons/downdetector.svg'
+			favicon: './icons/downdetector.svg'
 		}
 	];
+
+	onMount(async () => {
+		if (!browser) return;
+		let topSites: Array<any> = await browser.topSites.get({includeFavicon: true});
+		links = topSites.slice(0, 4);
+	});
 </script>
 
 <main>

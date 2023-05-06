@@ -1,10 +1,11 @@
 <script lang="ts">
+	import type { Link } from './types';
 	export let data: Link;
 </script>
 
 <a href={data.url}>
 	<div>
-		<img src={data.icon} alt="icon" />
+		<img src={data.favicon} alt="icon" />
 	</div>
 	<p>{data.title}</p>
 </a>
@@ -54,5 +55,6 @@
 	a div img {
 		width: 100%;
 		opacity: 67.4509804%;
+		border-radius: 5px;
 	}
 </style>
