@@ -3,6 +3,7 @@
 	import { browser, type Link } from './lib/types';
 	import LinkTile from './lib/LinkTile.svelte';
 	import SearchBar from './lib/SearchBar.svelte';
+	import Settings from './lib/Settings.svelte';
 
 	let links: Link[] = [
 		{
@@ -35,6 +36,8 @@
 </script>
 
 <main>
+	<Settings />
+
 	<div>
 		<h1>New Tab</h1>
 	</div>
