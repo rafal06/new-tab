@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { browser, type Link } from './lib/types';
+	import { /* browser, */ type Link } from './lib/types';
 	import LinkTile from './lib/LinkTile.svelte';
 	import SearchBar from './lib/SearchBar.svelte';
 	import Settings from './lib/Settings.svelte';
