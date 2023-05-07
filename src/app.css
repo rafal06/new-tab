@@ -12,6 +12,32 @@
 	--dark-bg-hover: #373641;
 	--light-txt: #ffffffac;
 	--accent: #4646ff;
+	--light-opacity: 0.675;
+}
+
+/* Utilities */
+
+.flex {
+	display: flex;
+}
+.justify-center {
+	justify-content: center;
+}
+.justify-space-between {
+	justify-content: space-between;
+}
+.align-center {
+	align-items: center;
+}
+
+.margin-none {
+	margin: 0;
+}
+
+.btn-clear {
+	background: none;
+	border: none;
+	padding: 0;
 }
 
 /* Global */
